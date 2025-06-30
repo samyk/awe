@@ -3,7 +3,7 @@
 
 ![](media/teaser.png)
 
-This repo contains the implementation of Automatic Waypoint Extraction (AWE): a plug-and-play module for selecting waypoints from demonstrations for performant behavioral cloning.  This repo also includes instantiations of combining AWE with two state-of-the-art imitation learning methods, [Diffusion Policy](https://arxiv.org/abs/2303.04137) and [Action Chunking with Transformers (ACT)](https://arxiv.org/abs/2304.13705), and the respective benchmarking environments, [RoboMimic](https://robomimic.github.io/) and [Bimanual Simulation Suite](https://sites.google.com/view/https://tonyzhaozh.github.io/aloha/).
+This repo contains the implementation of Automatic Waypoint Extraction (AWE): a plug-and-play module for selecting waypoints from demonstrations for performant behavioral cloning.  This repo also includes instantiations of combining AWE with two state-of-the-art imitation learning methods, [Diffusion Policy](https://arxiv.org/abs/2303.04137) and [Action Chunking with Transformers (ACT)](https://arxiv.org/abs/2304.13705), and the respective benchmarking environments, [RoboMimic](https://robomimic.github.io/) and [Bimanual Simulation Suite](https://tonyzhaozh.github.io/aloha/).
 
 Given a set of demonstrations and an error threshold, extracting waypoints is as simple as:
 ```bash
